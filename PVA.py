@@ -1,8 +1,8 @@
 import random
-cislo = random.randint(1, 1000)
+cislo = random.randint(1, 100)
 
 while True:    
-    tip = input("hádej čislo 1-1000: ")
+    tip = input("hádej čislo 1-100: ")
 
     if not tip.isdigit():
         print("piš čísla!")
